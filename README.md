@@ -1,7 +1,7 @@
 
 <p align="center">
-  <a href="https://github.com/DenverCoder1">
-    <img src="https://raw.githubusercontent.com/codingsenpi/codingsenpi/main/images/title.png" alt="Jonah Lawrence" /></a>
+  <a href="https://github.com/codingsenpi">
+    <img src="https://raw.githubusercontent.com/codingsenpi/codingsenpi/main/images/title.png" alt="Rahul Bagdi" /></a>
 </p>
 
 <p align="center">
