@@ -20,7 +20,7 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.gg/KXu4xtDsdy" alt="Discord" title="The Mothership"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-<a href="t.me/codingsenpi" alt="Telegram" title="@codingsenpi"><img width="32px" src="https://i.imgur.com/WERaiNW.png"/></a>
+<a href="t.me/codingsenpi" alt="Telegram" title="codingsenpi"><img width="32px" src="https://i.imgur.com/WERaiNW.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
 <a href="https://stackoverflow.com/users/12979793/codingsenpi" alt="Stackoverflow" title="codingsenpi"><img width="32px" src="https://i.imgur.com/aNRIIGv.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
