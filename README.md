@@ -13,14 +13,12 @@
 <a><img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&size=21&pause=1000&color=FF6B8E&center=true&width=435&lines=Indian%20Software%20engineer;Full%20Stack%20App%20Developer;%35%2B%20Years%20of%20Programming%20Experience;Self%20Taught;Nice%20to%20meet%20you...;Have%20a%20Wonderful%20Day!" alt="Typing SVG" /></a>
 </p>
 
-
-<!-- Social icons section -->
 <p align="center">
   <a href="https://www.youtube.com/watch?v=vWP4TujHCm0"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.gg/KXu4xtDsdy" alt="Discord" title="The Mothership"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-<a href="t.me/codingsenpi" alt="Telegram" title="codingsenpi"><img width="32px" src="https://i.imgur.com/WERaiNW.png"/></a>
+<a href="https://t.me/codingsenpi" alt="Telegram" title="codingsenpi"><img width="32px" src="https://i.imgur.com/WERaiNW.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
 <a href="https://stackoverflow.com/users/12979793/codingsenpi" alt="Stackoverflow" title="codingsenpi"><img width="32px" src="https://i.imgur.com/aNRIIGv.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
@@ -28,7 +26,6 @@
 ```diff
 @@ My Github Stats @@
 ```
-
 <div class='container'>
 <img style="height: auto; width: 55%;" class="img" src="https://github-readme-stats.vercel.app/api?username=codingsenpi&show_icons=true&theme=radical" />
 &nbsp;
