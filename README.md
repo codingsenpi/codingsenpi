@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://www.youtube.com/watch?v=vWP4TujHCm0"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://discord.com/users/400607183924101121/" alt="Discord" title="The Mothership"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
+  <a href="https://discord.com/users/400607183924101121/" alt="Discord" title="Discord"><img width="32px" src="https://i.imgur.com/OViZO8J.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
 <a href="https://t.me/codingsenpi" alt="Telegram" title="codingsenpi"><img width="32px" src="https://i.imgur.com/WERaiNW.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
