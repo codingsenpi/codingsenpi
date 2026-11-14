@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" width="100%" height="auto">
+  <defs>
+    <pattern id="grid-c3" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#fab3a9" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+  <style>
+    .card-title { font-family: system-ui, -apple-system, sans-serif; font-weight: 900; font-size: 20px; fill: #ffffff; letter-spacing: 0.5px; }
+    .card-subtitle { font-family: ui-monospace, 'SF Mono', monospace; font-size: 13.5px; font-weight: 700; fill: #7fb285; letter-spacing: 0.5px; }
+    .card-desc { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; font-weight: 500; fill: #c6ad94; }
+    .badge-txt { font-family: ui-monospace, 'SF Mono', monospace; font-size: 11.5px; font-weight: 700; fill: #7fb285; letter-spacing: 0.5px; }
+    .tag-txt { font-family: ui-monospace, 'SF Mono', monospace; font-size: 12px; font-weight: 700; }
+  </style>
+
+  <!-- Offset Shadow -->
+  <rect x="8" y="8" width="406" height="226" rx="4" fill="#7fb285" />
+
+  <!-- Main Card -->
+  <rect x="4" y="4" width="406" height="226" rx="4" fill="#3b272f" stroke="#fab3a9" stroke-width="2.5" />
+
+  <!-- Grid -->
+  <rect x="6" y="6" width="402" height="222" rx="3" fill="url(#grid-c3)" />
+
+  <!-- Header row: Title on Left, Badge on Far Right -->
+  <circle cx="24" cy="30" r="5" fill="#ed6b86" />
+  <text x="36" y="36" class="card-title">CTS-EXTENDED</text>
+  
+  <!-- Top-Right Badge -->
+  <rect x="260" y="18" width="130" height="26" rx="3" fill="#2d1b22" stroke="#7fb285" stroke-width="1.5" />
+  <text x="325" y="35" class="badge-txt" text-anchor="middle">HYPERCTS MOD</text>
+
+  <!-- Subtitle (Larger & Prominent) -->
+  <text x="20" y="72" class="card-subtitle">ANDROID SYSTEM // GESTURE BRIDGE</text>
+
+  <!-- Description -->
+  <text x="20" y="100" class="card-desc">Extended Circle to Search with multi-engine support,</text>
+  <text x="20" y="121" class="card-desc">paired with a navigation pill gesture trigger bridge</text>
+  <text x="20" y="142" class="card-desc">for Xiaomi HyperOS &amp; MIUI devices.</text>
+
+  <!-- Tags Row (Spacious & Cleanly Padded) -->
+  <g transform="translate(20, 175)">
+    <!-- Tag 1: Kotlin -->
+    <rect x="0" y="0" width="66" height="28" rx="3" fill="#2d1b22" stroke="#fab3a9" stroke-width="1.5" />
+    <text x="33" y="18" class="tag-txt" fill="#fab3a9" text-anchor="middle">Kotlin</text>
+
+    <!-- Tag 2: Java -->
+    <rect x="74" y="0" width="56" height="28" rx="3" fill="#2d1b22" stroke="#7fb285" stroke-width="1.5" />
+    <text x="102" y="18" class="tag-txt" fill="#7fb285" text-anchor="middle">Java</text>
+
+    <!-- Tag 3: AOSP -->
+    <rect x="138" y="0" width="60" height="28" rx="3" fill="#2d1b22" stroke="#ed6b86" stroke-width="1.5" />
+    <text x="168" y="18" class="tag-txt" fill="#ed6b86" text-anchor="middle">AOSP</text>
+
+    <!-- Tag 4: HyperOS -->
+    <rect x="206" y="0" width="82" height="28" rx="3" fill="#2d1b22" stroke="#c6ad94" stroke-width="1.5" />
+    <text x="247" y="18" class="tag-txt" fill="#c6ad94" text-anchor="middle">HyperOS</text>
+  </g>
+</svg>

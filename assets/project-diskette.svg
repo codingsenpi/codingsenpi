@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" width="100%" height="auto">
+  <defs>
+    <pattern id="grid-d3" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#fab3a9" fill-opacity="0.1" />
+    </pattern>
+  </defs>
+  <style>
+    .card-title { font-family: system-ui, -apple-system, sans-serif; font-weight: 900; font-size: 20px; fill: #ffffff; letter-spacing: 0.5px; }
+    .card-subtitle { font-family: ui-monospace, 'SF Mono', monospace; font-size: 13.5px; font-weight: 700; fill: #ed6b86; letter-spacing: 0.5px; }
+    .card-desc { font-family: system-ui, -apple-system, sans-serif; font-size: 13px; font-weight: 500; fill: #c6ad94; }
+    .badge-txt { font-family: ui-monospace, 'SF Mono', monospace; font-size: 11.5px; font-weight: 700; fill: #fab3a9; letter-spacing: 0.5px; }
+    .tag-txt { font-family: ui-monospace, 'SF Mono', monospace; font-size: 12px; font-weight: 700; }
+  </style>
+
+  <!-- Offset Shadow -->
+  <rect x="8" y="8" width="406" height="226" rx="4" fill="#ed6b86" />
+
+  <!-- Main Card -->
+  <rect x="4" y="4" width="406" height="226" rx="4" fill="#3b272f" stroke="#fab3a9" stroke-width="2.5" />
+
+  <!-- Grid -->
+  <rect x="6" y="6" width="402" height="222" rx="3" fill="url(#grid-d3)" />
+
+  <!-- Header row: Title on Left, Badge on Far Right -->
+  <circle cx="24" cy="30" r="5" fill="#7fb285" />
+  <text x="36" y="36" class="card-title">DISKETTE</text>
+  
+  <!-- Top-Right Badge: GITHUB BUILDS (Generous box width & padding) -->
+  <rect x="255" y="18" width="135" height="26" rx="3" fill="#2d1b22" stroke="#fab3a9" stroke-width="1.5" />
+  <text x="322" y="35" class="badge-txt" text-anchor="middle">GITHUB BUILDS</text>
+
+  <!-- Subtitle (Larger & Prominent) -->
+  <text x="20" y="72" class="card-subtitle">ANDROID CLIENT // DISCUIT.NET</text>
+
+  <!-- Description (Comfortable line spacing) -->
+  <text x="20" y="100" class="card-desc">Modern, tactile Android interface for Discuit.net</text>
+  <text x="20" y="121" class="card-desc">prioritizing fluid performance, gesture navigation,</text>
+  <text x="20" y="142" class="card-desc">and accessible community browsing.</text>
+
+  <!-- Tags Row (Spacious & Cleanly Padded) -->
+  <g transform="translate(20, 175)">
+    <!-- Tag 1: Flutter -->
+    <rect x="0" y="0" width="70" height="28" rx="3" fill="#2d1b22" stroke="#7fb285" stroke-width="1.5" />
+    <text x="35" y="18" class="tag-txt" fill="#7fb285" text-anchor="middle">Flutter</text>
+
+    <!-- Tag 2: Android -->
+    <rect x="78" y="0" width="74" height="28" rx="3" fill="#2d1b22" stroke="#fab3a9" stroke-width="1.5" />
+    <text x="115" y="18" class="tag-txt" fill="#fab3a9" text-anchor="middle">Android</text>
+
+    <!-- Tag 3: REST API -->
+    <rect x="160" y="0" width="84" height="28" rx="3" fill="#2d1b22" stroke="#c6ad94" stroke-width="1.5" />
+    <text x="202" y="18" class="tag-txt" fill="#c6ad94" text-anchor="middle">REST API</text>
+
+    <!-- Tag 4: Dart -->
+    <rect x="252" y="0" width="58" height="28" rx="3" fill="#2d1b22" stroke="#ed6b86" stroke-width="1.5" />
+    <text x="281" y="18" class="tag-txt" fill="#ed6b86" text-anchor="middle">Dart</text>
+  </g>
+</svg>

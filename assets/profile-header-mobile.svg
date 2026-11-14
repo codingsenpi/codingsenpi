@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="100%" height="auto">
+  <defs>
+    <pattern id="grid-pattern-mobile" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#fab3a9" fill-opacity="0.12" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mobile-title {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 23px;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+    .mobile-handle {
+      font-family: ui-monospace, 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace;
+      font-weight: 700;
+      font-size: 11.5px;
+      letter-spacing: 0.3px;
+      fill: #fab3a9;
+    }
+    .mobile-summary {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 13.5px;
+      fill: #f5e6d8;
+      letter-spacing: 0.1px;
+    }
+  </style>
+
+  <!-- Hard Shadow Rect -->
+  <rect x="8" y="8" width="404" height="264" fill="#c6ad94" rx="4" />
+
+  <!-- Main Card -->
+  <rect x="4" y="4" width="404" height="264" fill="#3b272f" stroke="#fab3a9" stroke-width="2.5" rx="4" />
+
+  <!-- Subtle Dot Grid Background -->
+  <rect x="6" y="6" width="400" height="260" fill="url(#grid-pattern-mobile)" rx="3" />
+
+  <!-- Top Bar Decorator -->
+  <g transform="translate(18, 16)">
+    <!-- Terminal Dots -->
+    <circle cx="6" cy="7" r="4.5" fill="#ed6b86" />
+    <circle cx="19" cy="7" r="4.5" fill="#fab3a9" />
+    <circle cx="32" cy="7" r="4.5" fill="#7fb285" />
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="18" y1="36" x2="402" y2="36" stroke="#463239" stroke-width="1.5" />
+
+  <!-- Main Content Area -->
+  <g transform="translate(20, 52)">
+    <!-- Header Title & Handle in Same Line -->
+    <text x="0" y="22" class="mobile-title">RAHUL BAGDI</text>
+
+    <!-- Handle Tag (Side-by-side) -->
+    <g transform="translate(162, 4)">
+      <rect x="0" y="0" width="140" height="22" rx="3" fill="#2d1b22" stroke="#fab3a9" stroke-width="1.2" />
+      <text x="70" y="15" class="mobile-handle" text-anchor="middle">aka @codingsenpi</text>
+    </g>
+
+    <!-- Underline accent bars (spans exactly under RAHUL and BAGDI) -->
+    <rect x="0" y="34" width="79" height="3.5" rx="1" fill="#ed6b86" />
+    <rect x="85" y="34" width="73" height="3.5" rx="1" fill="#7fb285" />
+
+    <!-- Resume Summary Text -->
+    <text x="0" y="60" class="mobile-summary">Computer Science undergraduate and Flutter</text>
+    <text x="0" y="81" class="mobile-summary">developer building cross-platform mobile and web</text>
+    <text x="0" y="102" class="mobile-summary">applications with <tspan fill="#ffffff" font-weight="700">Dart</tspan>.</text>
+
+    <text x="0" y="130" class="mobile-summary">Hands-on experience with <tspan fill="#ffffff" font-weight="700">Firebase</tspan>, <tspan fill="#ffffff" font-weight="700">Supabase</tspan>,</text>
+    <text x="0" y="151" class="mobile-summary"><tspan fill="#ffffff" font-weight="700">Hive</tspan>, REST APIs, and offline-first data persistence,</text>
+    <text x="0" y="172" class="mobile-summary">with projects spanning campus services, inventory</text>
+    <text x="0" y="193" class="mobile-summary">management, and authentication.</text>
+  </g>
+</svg>

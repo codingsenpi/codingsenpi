@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 210" width="100%" height="auto">
+  <defs>
+    <pattern id="grid-pattern-clean2" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#fab3a9" fill-opacity="0.12" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      font-size: 38px;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+    .mono-handle {
+      font-family: ui-monospace, 'SF Mono', 'Fira Code', 'Roboto Mono', Menlo, Consolas, monospace;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      fill: #fab3a9;
+    }
+    .tagline-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 14.5px;
+      fill: #c6ad94;
+      line-height: 1.5;
+    }
+    .nav-label {
+      font-family: ui-monospace, 'SF Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #c6ad94;
+      letter-spacing: 1px;
+    }
+  </style>
+
+  <!-- Hard Shadow Rect -->
+  <rect x="14" y="14" width="836" height="186" fill="#c6ad94" rx="4" />
+
+  <!-- Main Card -->
+  <rect x="8" y="8" width="836" height="186" fill="#3b272f" stroke="#fab3a9" stroke-width="3" rx="4" />
+
+  <!-- Subtle Dot Grid Background -->
+  <rect x="10" y="10" width="832" height="182" fill="url(#grid-pattern-clean2)" rx="3" />
+
+  <!-- Top Bar Decorator -->
+  <g transform="translate(26, 24)">
+    <!-- Terminal Dots -->
+    <circle cx="8" cy="8" r="5" fill="#ed6b86" />
+    <circle cx="24" cy="8" r="5" fill="#fab3a9" />
+    <circle cx="40" cy="8" r="5" fill="#7fb285" />
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="26" y1="48" x2="824" y2="48" stroke="#463239" stroke-width="1.5" />
+
+  <!-- Main Content Area -->
+  <g transform="translate(32, 64)">
+    <!-- Header Title -->
+    <text x="0" y="34" class="title-text">RAHUL BAGDI</text>
+
+    <!-- Handle Tag -->
+    <g transform="translate(305, 10)">
+      <rect x="0" y="0" width="160" height="26" rx="2" fill="#2d1b22" stroke="#fab3a9" stroke-width="1.5" />
+      <text x="80" y="18" class="mono-handle" text-anchor="middle">aka @codingsenpi</text>
+    </g>
+
+    <!-- Underline accent bars (spans exactly under RAHUL and BAGDI) -->
+    <rect x="0" y="46" width="130" height="4" rx="1.5" fill="#ed6b86" />
+    <rect x="140" y="46" width="121" height="4" rx="1.5" fill="#7fb285" />
+
+    <!-- Resume Summary Text (3 clean lines) -->
+    <text x="0" y="74" class="tagline-text">
+      Computer Science undergraduate and Flutter developer building cross-platform mobile and web applications with Dart.
+    </text>
+    <text x="0" y="96" class="tagline-text">
+      Hands-on experience with <tspan fill="#ffffff" font-weight="700">Firebase</tspan>, <tspan fill="#ffffff" font-weight="700">Supabase</tspan>, <tspan fill="#ffffff" font-weight="700">Hive</tspan>, REST APIs, and offline-first data persistence,
+    </text>
+    <text x="0" y="118" class="tagline-text">
+      with projects spanning campus services, inventory management, and authentication.
+    </text>
+  </g>
+</svg>
